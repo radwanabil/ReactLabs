@@ -16,12 +16,12 @@ export default class Home extends Component {
     }
     handleData = (data) => {
         this.students.push(data);
-        console.log(this.students);
+        console.log(data);
         this.setState({ students: this.students });
     };
     render() {
         return (
-            <div><Registeration onSubmit={this.handleData}></Registeration>
+            <div className='home'><Registeration onSubmit={this.handleData}></Registeration>
             <Students allStudents={this.state.students}></Students>
             </div>
         )

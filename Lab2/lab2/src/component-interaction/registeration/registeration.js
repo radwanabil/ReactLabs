@@ -15,11 +15,14 @@ export default class RegistrationForm extends Component {
         this.updateEmail = this.updateEmail.bind(this);
     }
     setUser = (e) => {
+        e.preventDefault();
         this.setState({ name: this.state.name });
         this.setState({ age: this.state.age });
         this.setState({ email: this.state.email });
         this.setState({ phone: this.state.phone });
+        this.props.onSubmit({name: this.state.name , age: this.state.age ,email: this.state.email,phone: this.state.phone })
     }
+
     updateName(e) {
         this.setState({ name: e.target.value });
     }
