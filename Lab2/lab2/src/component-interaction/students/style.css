@@ -1,0 +1,32 @@
+table{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline !important;
+    color:#212121;
+    background-color: white;
+    border-radius: 15px;
+    width: 900px !important;
+    justify-content: center;
+    margin-top: 50px;
+    height: fit-content;
+  
+  }
+  
+  th{
+    width: 900px !important;
+  }
+  tbody{
+    width: 900px !important;
+  }
+  td{
+    width: 900px !important;
+  
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid black;
+  }
+  
+  
