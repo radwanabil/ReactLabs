@@ -1,0 +1,30 @@
+.all{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.album-list {
+    margin-top: 20px;
+  }
+  
+  .album-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .album-item {
+    text-align: center;
+  }
+  
+  .album-cover {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .album-title {
+    margin-top: 10px;
+  }
+  
